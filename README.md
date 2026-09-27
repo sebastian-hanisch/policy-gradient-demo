@@ -1,5 +1,7 @@
 # 🧭 Policy Gradient / REINFORCE
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-policy-gradient-demo.streamlit.app/)**
+
 Siebtes Stück der **Reinforcement-Learning-Linie** der "Konzepte"-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning. Derselbe Lagerroboter wie bei den vorigen Stücken, aber ein grundlegend anderer Ansatz: **REINFORCE** (Williams 1992) parametrisiert die Politik direkt als Softmax-Regression über Zustandsmerkmalen und verschiebt sie nach jeder abgeschlossenen Episode in Richtung der tatsächlich erlebten Monte-Carlo-Rückgabe – ohne Wertfunktion, ohne Modell.
 
 ## Kernfrage
